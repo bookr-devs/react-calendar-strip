@@ -1,0 +1,62 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  > div {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:not([href]),
+  &:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+button {
+  border-radius: 0;
+  &:focus {
+    outline: 0px;
+  }
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+
+  font-size: inherit;
+  line-height: inherit;
+  background: none;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: none;
+}

@@ -1,0 +1,100 @@
+.cal_container {
+	background-color: #fff;
+	-webkit-box-shadow: 0px 2px 14px -2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 2px 14px -2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 14px -2px rgba(0, 0, 0, 0.3);
+}
+
+.cal_head {
+	text-align: center;
+	padding: 1rem 0rem 0rem 0rem;
+	font-weight: bold;
+	color: #383838;
+}
+
+.cal_content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0.5rem 0.5rem 1rem 0.5rem;
+	width: 100%;
+
+	.cal_nav_left {
+		.cal_nav_arrow_left {
+			fill: #383838;
+			cursor: pointer;
+		}
+	}
+
+	.cal_nav_right {
+		.cal_nav_arrow_right {
+			fill: #383838;
+			cursor: pointer;
+		}
+	}
+
+	//SLIDER CONTENT
+	.cal_slider_content {
+    //SLOTS
+		.cal_slider_slots {
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: center;
+			cursor: pointer;
+			width: 70px;
+			height: 70px;
+			transition: all ease-out 0.1s;
+			border-radius: 50%;
+			text-align: center;
+
+			//Day name
+			p {
+				color: #5dbcbe;
+				margin-bottom: 5px;
+				font-weight: 600;
+				text-transform: uppercase;
+				font-size: 0.8rem;
+			}
+
+			//Day number
+			span {
+				font-weight: 400;
+				font-size: 1rem;
+				color: #383838;
+			}
+
+			@media (max-width: 470px) {
+				width: 1.5rem;
+				width: 40px;
+				height: 40px;
+				padding: 25px;
+			}
+
+			@media (max-width: 340px) {
+				width: 1.5rem;
+				width: 45px;
+				height: 45px;
+				padding: 20px;
+			}
+
+			&:hover {
+				background: #64cbcc;
+				border-radius: 50%;
+				span,
+				p {
+					color: #fff;
+				}
+			}
+    }
+    
+	}
+}
+
+.swiper-container {
+	display: flex;
+	overflow: hidden;
+	width: 90%;
+	justify-content: center;
+	align-items: center;
+}
