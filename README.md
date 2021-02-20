@@ -27,4 +27,4 @@ class Example extends Component {
 
 ## License
 
-MIT © [developer@bookr.co](https://github.com/developer@bookr.co)
+MIT © [developer@bookr.co](https://github.com/bookr-devs)
