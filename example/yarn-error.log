@@ -1,0 +1,60 @@
+Arguments: 
+  /Users/juand/.nvm/versions/node/v14.4.0/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js install
+
+PATH: 
+  /var/folders/pr/n_1kkr194qs2s35c95clrlpc0000gn/T/yarn--1613858051694-0.8419396099003773:/Users/juand/Bookr/new/react-calendar-strip/node_modules/.bin:/Users/juand/.config/yarn/link/node_modules/.bin:/Users/juand/.nvm/versions/node/v14.4.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/juand/.nvm/versions/node/v14.4.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/juand/.nvm/versions/node/v14.4.0/bin/node_modules/npm/bin/node-gyp-bin:/Users/juand/.rvm/gems/ruby-2.6.3/bin:/Users/juand/.rvm/gems/ruby-2.6.3@global/bin:/Users/juand/.rvm/rubies/ruby-2.6.3/bin:/usr/local/opt/ruby/bin:/Users/juand/.pyenv/shims:/usr/local/opt/ruby/bin:/Users/juand/.nvm/versions/node/v14.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/juand/.rvm/bin:/Users/juand/development/flutter/bin:/Applications/MAMP/Library/bin/:/usr/local/opt/openssl/bin/:/Users/juand/Library/Android/sdk/tools:/Users/juand/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/juand/Bookr/new/react-calendar-strip/example/package.json: Unexpected token / in JSON at position 610
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "react-calendar-strip-example",
+    "homepage": ".",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "dependencies": {
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      // "react-calendar-strip": "link:.."
+    },
+    "devDependencies": {
+      "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
